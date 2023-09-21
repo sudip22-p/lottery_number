@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,12 +17,14 @@
     font-size: 21px;
     background-color: rgb(155 43 95);
 }
-h1{
+
+h1 {
     color: white;
     text-shadow: 5px 5px 2px black;
     user-select: none;
-}   
-#digit-choose{
+}
+
+#digit-choose {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +36,8 @@ h1{
     box-shadow: 0px 10px 10px black;
     background-color: rgb(209, 218, 209);
 }
-.num{
+
+.num {
     font-size: 80px;
     font-weight: bold;
     color: #333;
@@ -41,7 +45,8 @@ h1{
     border-radius: 12px;
     background-color: rgb(231 124 174);
 }
-.btn{
+
+.btn {
     font-size: 40px;
     font-weight: bold;
     background-color: white;
@@ -52,18 +57,21 @@ h1{
     box-shadow: 0px 10px 10px black;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     color: white;
     background-color: rgb(238, 8, 115);
     border: 2px solid white;
 }
-h2{
+
+h2 {
     color: rgb(11, 226, 111);
     text-shadow: 0px 5px 3px rgb(240, 240, 16);
     user-select: none;
     font-weight: bold;
-}   
-#number-reveal{
+}
+
+#number-reveal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,163 +84,205 @@ h2{
     background-color: rgb(209, 218, 209);
     display: none;
 }
-#user-text{
+
+#user-text {
     font-size: 32px;
     font-weight: bold;
     color: #333;
 }
-#winner-number{
+
+#winner-number {
     font-size: 36px;
     color: rgb(13, 236, 54);
 }
-#re-do{ 
+
+#re-do {
     display: none;
 }
+
 /*responsiveness updates...*/
 @media (max-width:1189px) {
-    .wrapper{
+    .wrapper {
         gap: 50px;
     }
-    .wrapper{
+
+    .wrapper {
         min-height: 100vh;
     }
-    #digit-choose{
+
+    #digit-choose {
         padding: 100px 100px;
         gap: 50px;
     }
-    .btn{
+
+    .btn {
         font-size: 32px;
         padding: 10px 20px;
     }
-    .num{
+
+    .num {
         font-size: 60px;
         padding: 8px 18px;
     }
-    #number-reveal{
+
+    #number-reveal {
         padding: 100px 100px;
         gap: 20px;
     }
-    #user-text{
+
+    #user-text {
         font-size: 32px;
     }
-    #winner-number{
+
+    #winner-number {
         font-size: 36px;
     }
 }
+
 @media (max-width:799px) {
-    .wrapper{
+    .wrapper {
         gap: 30px;
     }
-    #digit-choose{
+
+    #digit-choose {
         padding: 50px 50px;
         gap: 30px;
     }
-    .btn{
+
+    .btn {
         font-size: 28px;
         padding: 8px 18px;
     }
-    .num{
+
+    .num {
         font-size: 50px;
         padding: 6px 16px;
     }
-    #number-reveal{
+
+    #number-reveal {
         padding: 50px 50px;
         gap: 20px;
     }
-    #user-text{
+
+    #user-text {
         font-size: 25px;
     }
-    #winner-number{
+
+    #winner-number {
         font-size: 36px;
     }
 }
+
 @media (max-width:549px) {
-    #digit-choose{
+    #digit-choose {
         padding: 50px 50px;
         gap: 20px;
     }
-    .btn{
+
+    .btn {
         font-size: 26px;
         padding: 6px 14px;
     }
-    .num{
+
+    .num {
         font-size: 40px;
         padding: 6px 14px;
     }
-    #number-reveal{
+
+    #number-reveal {
         padding: 50px 50px;
         gap: 15px;
     }
-    #user-text{
+
+    #user-text {
         font-size: 21px;
     }
-    #winner-number{
+
+    #winner-number {
         font-size: 24px;
     }
 }
+
 @media (max-width:467px) {
-    .wrapper{
+    .wrapper {
         gap: 20px;
     }
-    #digit-choose{
+
+    #digit-choose {
         padding: 40px 40px;
         gap: 12px;
     }
-    .btn{
+
+    .btn {
         font-size: 26px;
         padding: 6px 14px;
     }
-    h1{
+
+    h1 {
         font-size: 28px;
     }
-    h2{
+
+    h2 {
         font-size: 21px;
     }
-    .num{
+
+    .num {
         font-size: 30px;
         padding: 4px 10px;
     }
-    #number-reveal{
+
+    #number-reveal {
         padding: 40px 40px;
         gap: 12px;
     }
-    #user-text{
+
+    #user-text {
         font-size: 16px;
     }
-    #winner-number{
+
+    #winner-number {
         font-size: 18px;
     }
 }
+
 @media (max-width:319px) {
-    .wrapper{
+    .wrapper {
         gap: 30px;
     }
-    #digit-choose{
+
+    #digit-choose {
         padding: 30px 30px;
         gap: 8px;
     }
-    .btn{
+
+    .btn {
         font-size: 24px;
         padding: 6px 12px;
     }
-    h1{
+
+    h1 {
         font-size: 26px;
     }
-    h2{
+
+    h2 {
         font-size: 18px;
     }
-    .num{
+
+    .num {
         font-size: 26px;
         padding: 2px 8px;
     }
-    #number-reveal{
+
+    #number-reveal {
         padding: 30px 30px;
         gap: 7px;
     }
-    #user-text{
+
+    #user-text {
         font-size: 12px;
     }
-    #winner-number{
+
+    #winner-number {
         font-size: 14px;
     }
 }
