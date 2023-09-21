@@ -12,7 +12,7 @@
     width: 100%;
     padding: 10px 30px;
     gap: 70px;
-    height: 100vh;
+    min-height: 100vh;
     font-size: 21px;
     background-color: rgb(155 43 95);
 }
@@ -87,4 +87,152 @@ h2{
 }
 #re-do{ 
     display: none;
+}
+/*responsiveness updates...*/
+@media (max-width:1189px) {
+    .wrapper{
+        gap: 50px;
+    }
+    .wrapper{
+        min-height: 100vh;
+    }
+    #digit-choose{
+        padding: 100px 100px;
+        gap: 50px;
+    }
+    .btn{
+        font-size: 32px;
+        padding: 10px 20px;
+    }
+    .num{
+        font-size: 60px;
+        padding: 8px 18px;
+    }
+    #number-reveal{
+        padding: 100px 100px;
+        gap: 20px;
+    }
+    #user-text{
+        font-size: 32px;
+    }
+    #winner-number{
+        font-size: 36px;
+    }
+}
+@media (max-width:799px) {
+    .wrapper{
+        gap: 30px;
+    }
+    #digit-choose{
+        padding: 50px 50px;
+        gap: 30px;
+    }
+    .btn{
+        font-size: 28px;
+        padding: 8px 18px;
+    }
+    .num{
+        font-size: 50px;
+        padding: 6px 16px;
+    }
+    #number-reveal{
+        padding: 50px 50px;
+        gap: 20px;
+    }
+    #user-text{
+        font-size: 25px;
+    }
+    #winner-number{
+        font-size: 36px;
+    }
+}
+@media (max-width:549px) {
+    #digit-choose{
+        padding: 50px 50px;
+        gap: 20px;
+    }
+    .btn{
+        font-size: 26px;
+        padding: 6px 14px;
+    }
+    .num{
+        font-size: 40px;
+        padding: 6px 14px;
+    }
+    #number-reveal{
+        padding: 50px 50px;
+        gap: 15px;
+    }
+    #user-text{
+        font-size: 21px;
+    }
+    #winner-number{
+        font-size: 24px;
+    }
+}
+@media (max-width:467px) {
+    .wrapper{
+        gap: 20px;
+    }
+    #digit-choose{
+        padding: 40px 40px;
+        gap: 12px;
+    }
+    .btn{
+        font-size: 26px;
+        padding: 6px 14px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 21px;
+    }
+    .num{
+        font-size: 30px;
+        padding: 4px 10px;
+    }
+    #number-reveal{
+        padding: 40px 40px;
+        gap: 12px;
+    }
+    #user-text{
+        font-size: 16px;
+    }
+    #winner-number{
+        font-size: 18px;
+    }
+}
+@media (max-width:319px) {
+    .wrapper{
+        gap: 30px;
+    }
+    #digit-choose{
+        padding: 30px 30px;
+        gap: 8px;
+    }
+    .btn{
+        font-size: 24px;
+        padding: 6px 12px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .num{
+        font-size: 26px;
+        padding: 2px 8px;
+    }
+    #number-reveal{
+        padding: 30px 30px;
+        gap: 7px;
+    }
+    #user-text{
+        font-size: 12px;
+    }
+    #winner-number{
+        font-size: 14px;
+    }
 }
