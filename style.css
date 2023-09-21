@@ -44,6 +44,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 12px;
     background-color: rgb(231 124 174);
+    user-select: none;
 }
 
 .btn {
