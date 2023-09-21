@@ -41,7 +41,7 @@ function generateDigit() {
         else if (digitIndex == 5) {
             fifthDigit.innerHTML = `${randDigit}`;
         }
-    }, 12);
+    }, 10);
     setTimeout(() => {
         if (digitIndex == 1) {
 
@@ -88,9 +88,9 @@ function generateDigit() {
                 getDigit.style.display = "none";
                 document.getElementById("number-reveal").style.display = "flex";
                 reDo.style.display = "block";
-            }, 1800);
+            }, 1600);
         }
-    }, 2800);
+    }, 1800);
 }
 
 
