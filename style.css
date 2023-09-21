@@ -3,3 +3,87 @@
     margin: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px 30px;
+    gap: 70px;
+    height: 100vh;
+    font-size: 21px;
+    background-color: rgb(155 43 95);
+}
+h1{
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    user-select: none;
+}   
+#digit-choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 150px;
+    border-radius: 12px;
+    gap: 100px;
+    box-shadow: 0px 10px 10px black;
+    background-color: rgb(209, 218, 209);
+}
+.num{
+    font-size: 80px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: rgb(231 124 174);
+}
+.btn{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: rgb(238, 8, 115);
+    border: 2px solid white;
+    box-shadow: 0px 10px 10px black;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(238, 8, 115);
+    border: 2px solid white;
+}
+h2{
+    color: rgb(11, 226, 111);
+    text-shadow: 0px 5px 3px rgb(240, 240, 16);
+    user-select: none;
+    font-weight: bold;
+}   
+#number-reveal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 150px;
+    border-radius: 12px;
+    gap: 20px;
+    box-shadow: 0px 10px 10px black;
+    background-color: rgb(209, 218, 209);
+    display: none;
+}
+#user-text{
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+#winner-number{
+    font-size: 36px;
+    color: rgb(13, 236, 54);
+}
+#re-do{ 
+    display: none;
+}
